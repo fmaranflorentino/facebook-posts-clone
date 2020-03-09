@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Flávio Florentino <florentino.flavioweb@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
