@@ -2,11 +2,11 @@ import React from "react";
 
 import Comment from "./Comment";
 
-function Post() {
+function Post({ post }) {
   return (
     <>
-      post works
-      <Comment />
+      <p>{(post && post.author) && post.author.name}</p>
+      {post && post.comments.map(comment => <Comment comment={comment} />)}
     </>
   );
 }

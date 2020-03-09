@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+
+import Post from "./Post";
 
 class PostList extends Component {
   state = {
@@ -21,14 +23,17 @@ class PostList extends Component {
             content: "Conteúdo do comentário"
           }
         ]
-      },
+      }
     ]
   };
 
   render() {
     return (
-      <h1>Post List Works!</h1>
-    )
+      <>
+        <h1>Post List Works!</h1>
+        {this.state && this.state.posts.map(post => <Post post={post} />)}
+      </>
+    );
   }
 }
 

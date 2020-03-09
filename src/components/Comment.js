@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Comment() {
-  return <h1>Comment works!</h1>
+function Comment({ comment }) {
+  return <h1>{comment && comment.content}</h1>
 }
 
 export default Comment;
