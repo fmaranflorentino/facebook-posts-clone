@@ -1,5 +1,5 @@
-header {
-  background-color: #4A90E2;
+header#main {
+  background-color: #4267b2;
 
   display: flex;
   align-items: center;
@@ -8,7 +8,7 @@ header {
   height: 64px;
 }
 
-header img {
+header#main img {
   width: 151px;
   padding: 0 0 0 42px;
 }

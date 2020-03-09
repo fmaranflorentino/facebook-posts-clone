@@ -5,7 +5,7 @@ import facebookLogo from '../assets/icons/facebook.svg';
 
 function Header() {
   return (
-    <header>
+    <header id="main">
       <img src={facebookLogo} alt="facebook logo"/>
     </header>
   )

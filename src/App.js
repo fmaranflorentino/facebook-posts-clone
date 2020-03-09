@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <>
         <Header />
-        <PostList />
+        <PostList className="PostList" />
       </>
     );
   }

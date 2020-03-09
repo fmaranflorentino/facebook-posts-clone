@@ -1,0 +1,13 @@
+.PostList {
+  display: block;
+
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .PostList {
+    width: 96%;
+    margin-left: 2%;
+  }
+}
