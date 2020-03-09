@@ -24,7 +24,7 @@ function Post({ post }) {
         <p>{post && post.content}</p>
       </section>
 
-      {post && post.comments.map(comment => <Comment comment={comment} />)}
+      {post && post.comments.map(comment => <Comment key={comment.id} comment={comment} />)}
     </article>
   );
 }

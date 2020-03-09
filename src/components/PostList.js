@@ -39,7 +39,7 @@ class PostList extends Component {
         ]
       },
       {
-        id: 1,
+        id: 2,
         author: {
           name: "Julio Alcantara",
           avatar:
@@ -66,7 +66,7 @@ class PostList extends Component {
   render() {
     return (
       <section className="PostList">
-        {this.state && this.state.posts.map(post => <Post post={post} />)}
+        {this.state && this.state.posts.map(post => <Post key={post.id} post={post} />)}
       </section>
     );
   }
