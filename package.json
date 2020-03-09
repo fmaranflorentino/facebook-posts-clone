@@ -1,0 +1,7 @@
+{
+  "name": "facebook-posts-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Flávio Florentino <florentino.flavioweb@gmail.com>",
+  "license": "MIT"
+}
